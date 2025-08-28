@@ -1,21 +1,23 @@
-<p align="center">
-  <img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal.svg" alt="GSoC logo" width="300"/>
-</p>
+<div align="center">
+  <img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-logo-horizontal.svg" 
+       alt="GSoC logo" width="300" style="display:block; margin:auto;"/>
+  <h2 style="margin-top: 12px; font-size: 36px; font-weight: bold;">
+    @ <a href="https://github.com/ankidroid/Anki-Android" style="text-decoration: none; color: inherit;">AnkiDroid</a>
+  </h2>
+</div>
+
 
 <h1 align="center">Hari Srinivasan</h1>
 <h2 align="center">Tablet & Chromebook UI - Google Summer of Code 2025</h2>
-<h3 align="center">
-  <a href="https://github.com/ankidroid/Anki-Android">AnkiDroid</a>
-</h3>
+
 
 <p align="center">
-  <a href="http://github.com/haz3-jolt">GitHub</a> | 
-  <a href="https://www.linkedin.com/in/hhari-srinivasan-b0633a2b8//">LinkedIn</a>
+  <a href="http://github.com/haz3-jolt">GitHub</a> | <a href="https://www.linkedin.com/in/hhari-srinivasan-b0633a2b8/">LinkedIn</a>
 </p>
 
 ---
 
-## 🧑‍🏫 Mentors
+## 🦉 Mentors
 - [Arthur Milchior](https://github.com/Arthur-Milchior)
 - [David Allison](https://github.com/david-allison)
 - [Sanjay Sargam](https://github.com/SanjaySargam)
@@ -23,12 +25,13 @@
 
 ---
 
-## 📚 Project Overview
+## 📚 Organization Overview
 
 [**AnkiDroid**](https://github.com/ankidroid/Anki-Android) is an Android application for [Anki](https://github.com/ankitects/anki), a powerful flashcard program that aids in learning and memorizing various topics through spaced repition and has been proven an effective tool in multiple peer-reviewed studies.
 
 ### 🎯 **Project Goal**
 My work focused on enhancing the user experience of AnkiDroid on larger devices like tablets and Chromebooks. The project aimed to improve usability, readability, and overall aesthetics, ensuring AnkiDroid remains intuitive and efficient across a wider range of devices and introduce a more desktop-esque UX to more effectively use the larger screen real estate.
+
 ---
 
 ## 🚀 Project Achievements
@@ -56,11 +59,15 @@ Allowing users to resize the panes in any dual fragment layouts.
 
 Improved mouse capabilities with the following:
 
-#### Right Click to select in card browser
+#### Right Click to select cards in card browser
+[mouse.webm](https://github.com/user-attachments/assets/a8ece0b7-0337-4163-a6ea-6427ac86877c)
 
 #### Hover effects for resizable divider
+[hover.webm](https://github.com/user-attachments/assets/f4d1643a-87d4-47ff-b034-ca3408a08d02)
 
 #### Right Click Context Menus
+![478200199-605107d9-a57f-413a-8b6b-c87dfecf523d](https://github.com/user-attachments/assets/966f2661-fcb5-432d-8b5a-8e6c9604b80d)
+
 
 ### 3. **Add Previewer to NoteEditor**
 
@@ -96,14 +103,14 @@ Here's a list of the pull requests I created during GSoC 2024:
 
 ---
 
-## 🏆 Outcome
-placeholder
+## 💡 Outcome
+This project successfully improved the accessibility and user experience of AnkiDroid on large screens. By introducing resizable dual-pane layouts and enhancing mouse support with features like right-click menus, the app now provides a more intuitive and efficient interface for tablet and Chromebook users. This work lays a strong foundation for AnkiDroid's continued evolution on large-screen devices.
 
 ---
 
 ## 🔮 Future Work
+A key next step is the expansion of bounding box functionality. This is a planned addition to the Note Editor and all dual-fragment screens, which will force the panes to collapse back into a single-pane activity when a certain screen size threshold is met. This will ensure a more fluid and responsive experience for users who frequently resize or re-orient their devices. I also plan to add right-click context menus to more screens to further enhance large-screen usability.
 
-placeholder
 ---
 
-*Thank you for following my GSoC journey! Feel free to connect with me on [GitHub](http://github.com/haz3-jolt) or [LinkedIn](https://www.linkedin.com/in/hhari-srinivasan-b0633a2b8//).*
+*Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/hhari-srinivasan-b0633a2b8/) or check out my other projects at [GitHub](http://github.com/haz3-jolt).*
