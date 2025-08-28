@@ -35,44 +35,39 @@ My work focused on enhancing the user experience of AnkiDroid on larger devices 
 
 ### 1. **Resizable Layouts**
 
-Unified the DeckPicker screen's menu for a streamlined user experience.
+Allowing users to resize the panes in any dual fragment layouts.
 
-**Before:**
+#### Deck Picker
 <p align="center">
-    <img src="media/deckpicker_menu_before.png" alt="DeckPicker Screen Before">
+    <img src="media/Week1/Screenshot_20250602_025721.png" alt="DeckPicker">
 </p>
 
-**After:**
+#### Card Browser
 <p align="center">
-    <img src="media/deckpicker_menu_after.png" alt="DeckPicker Screen After">
+    <img src="media/week3/cbdark.png" alt="CardBrowser">
+</p>
+
+#### Card Template Editor
+<p align="center">
+    <img src="media/Week2/dark.png" alt="CardTemplateEditor">
 </p>
 
 ### 2. **Mouse Improvements**
 
-Improved user experience by highlighting the selected preference setting.
+Improved mouse capabilities with the following:
 
-**Before:**
-<p align="center">
-    <img src="media/highlight_preference_before.png" alt="Highlighted Preference Setting">
-</p>
+#### Right Click to select in card browser
 
-**After:**
-<p align="center">
-    <img src="media/highlight_preference.png" alt="Highlighted Preference Setting">
-</p>
+#### Hover effects for resizable divider
+
+#### Right Click Context Menus
 
 ### 3. **Add Previewer to NoteEditor**
 
-Integrated a TemplatePreviewerFragment into the CardTemplateEditor for real-time preview of card templates, enhancing usability and efficiency.
+Introduces a dual-pane layout for the Note Editor, integrating a live previewer. Users will be able to edit notes while simultaneously seeing a real-time preview of the generated cards. This change consisteted of many smaller steps including splintering the note editor into a seperate fragment and activity, and creating a interface for the noteeditor to send information on changes to the previewer.
 
-**Before:**
 <p align="center">
-    <img src="media/card-template-editor_before.jpeg" alt="Card Template Editor">
-</p>
-
-**After:**
-<p align="center">
-    <img src="media/card-template-editor.jpeg" alt="Card Template Editor">
+    <img src="media/media/week5/NEdark.png" alt="NoteEditor">
 </p>
 
 ---
